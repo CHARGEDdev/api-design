@@ -1,5 +1,7 @@
 ### **follow/followUser**
 
+Deployed `dev`
+
 #### **Method**
 
 POST

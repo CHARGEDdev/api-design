@@ -1,5 +1,7 @@
 ### **user/followingUsers/{uid}**
 
+Deployed `dev`
+
 #### **Method**
 
 Get

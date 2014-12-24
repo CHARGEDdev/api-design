@@ -1,5 +1,7 @@
 ### **user/followingPerformers/{uid}**
 
+Deployed `dev`
+
 #### **Method**
 
 GET

@@ -1,5 +1,7 @@
 ### **follow/followEvent**
 
+Deployed `dev`
+
 #### **Method**
 
 POST

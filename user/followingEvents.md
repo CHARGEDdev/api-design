@@ -1,5 +1,7 @@
 ### **user/followingEvents/{uid}**
 
+Deployed `dev`
+
 #### **Method**
 
 GET
