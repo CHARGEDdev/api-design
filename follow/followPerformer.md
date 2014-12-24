@@ -1,4 +1,4 @@
-### **follow/followEvent**
+### **follow/followPerformer**
 
 #### **Method**
 
