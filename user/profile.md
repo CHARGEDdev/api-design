@@ -1,5 +1,5 @@
 
-### **1. user/profile/{uid}**
+### **user/profile/{uid}**
 
 #### **Method**
 
