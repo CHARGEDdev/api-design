@@ -1,6 +1,8 @@
 ### **follow/followUser**
 
-Deployed `dev`
+Deployed on branch: `dev`
+
+#### **Description**
 
 #### **Method**
 

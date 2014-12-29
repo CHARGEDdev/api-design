@@ -1,6 +1,8 @@
 ### **user/followingEvents/{uid}**
 
-Deployed `dev`
+Deployed on branch: `dev`
+
+#### **Description**
 
 #### **Method**
 
