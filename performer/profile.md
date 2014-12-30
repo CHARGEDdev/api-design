@@ -15,7 +15,7 @@ Get
 
 Example:
 
-http://api.denzel.dev.charged.fm/performer/profile/312?access_token=29a055f6fd4a7df45854b38343aa5b1eedb44242
+http://api.dev.charged.fm/performer/profile/312?access_token=29a055f6fd4a7df45854b38343aa5b1eedb44242
 
 ```javascript
 {
