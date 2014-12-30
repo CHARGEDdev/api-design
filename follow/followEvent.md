@@ -12,6 +12,7 @@ POST
 
 - access_token
 - eid
+- type: either be `event` or `userevent`
 
 ```javascript
 {
