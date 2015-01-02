@@ -1,16 +1,16 @@
-broadcasts/like/{$broadcastID}
+### **broadcasts/like/{$broadcastID}**
 
-Deployed on branch: api, dev
+Deployed on branch: `api`, `dev`
 
-Description
+#### **Description**
 
 Like an broadcast image
 
-Method
+#### **Method**
 
 POST GET
 
-Param
+#### **Param**
 
 access_token
 broadcastID
@@ -19,8 +19,10 @@ Example:
 
 http://api.charged.fm/broadcasts/like/20
 
+```javscript
 {
     "status":"success",
     "broadcastID":20,
     "code":200
 }
+```
