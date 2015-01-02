@@ -1,4 +1,4 @@
-### **broadcasts/comment/{$broadcastID}**
+### **broadcasts/comment**
 
 Deployed on branch: `api`, `dev`
 
