@@ -53,14 +53,14 @@ comment
 
 Example:
 
-http://api.charged.fm/broadcasts/comment/20
+http://api.charged.fm/broadcasts/comment/129
 
 ```javscript
 {
     "status":"success",
     "commentID":129,
-    "comment":"Nice broadcast dude!",
-    "dateCreated":"2015-01-02T16:44:11-05:00",
+    "comment":"Nice broadcast broseph!",
+    "dateUpdated":"2015-01-02T16:48:11-05:00",
     "code":200
 }
 ```
