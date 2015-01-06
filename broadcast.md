@@ -33,7 +33,7 @@ http://api.charged.fm/broadcast
     "eventType":"event",
     "caption":"Here's a caption dude!",
     "images":[
-        "thumbnail: {
+        "thumbnail": {
           "url": "http://media.charged.fm/photos/usergen/broadcasts/1419975648_peugwu8Q_thumbnail.jpg"
           "width": 150
           "height": 150
