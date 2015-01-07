@@ -1,4 +1,4 @@
-### **broadcast**
+### **broadcast** [POST]
 
 Deployed on branch: `api`, `dev`
 
@@ -55,7 +55,7 @@ http://api.charged.fm/broadcast
 
 <hr>
 
-### **broadcast/{broadcastID}**
+### **broadcast/{broadcastID}**  [PUT]
 
 Deployed on branch: `api`, `dev`
 
@@ -89,7 +89,7 @@ http://api.charged.fm/broadcast/18
 
 <hr>
 
-### **broadcast/{broadcastID}**
+### **broadcast/{broadcastID}**  [DELETE]
 
 Deployed on branch: `api`, `dev`
 
