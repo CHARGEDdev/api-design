@@ -105,7 +105,7 @@ http://api.charged.fm/me/broadcasts
                 "name": "New York Rangers vs. New York Islanders",
                 "venue": "Madison Square Garden"
             }
-        }
+        },
         {
             "id": "22",
             "caption": "Derpy derpy",
