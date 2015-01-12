@@ -17,7 +17,7 @@ GET
 - limit: default 10
 
 Example:
-http://api.dev.charged.fm/performer/broadcasts/{performerID}52954
+http://api.dev.charged.fm/performer/broadcasts/52954
 
 ```javascript
 {
