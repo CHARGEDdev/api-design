@@ -4,7 +4,7 @@ Deployed on branch: `api` `dev`
 
 #### **Description**
 
-Returns all the broadcasts for the logged in user
+Returns all the broadcasts for a user
 
 #### **Method**
 
@@ -17,7 +17,7 @@ GET
 - limit: default 10
 
 Example:
-http://api.charged.fm/user/broadcasts/113429
+http://api.dev.charged.fm/user/broadcasts/113429
 
 ```javascript
 
