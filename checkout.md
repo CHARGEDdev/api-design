@@ -3,10 +3,10 @@
 Build the checkout URI with the following parameters below. Always post to `https`
 
 ### Parameters
-* tid - ticket id
-* qty - quantity of tickets (optional, defaults to max)
-* aid - affiliate id (optional)
-* sid - session id (optional)
+* `tid` - ticket id
+* `qty` - quantity of tickets (optional, defaults to max)
+* `aid` - affiliate id (optional)
+* `sid` - session id (optional)
 
 ### Example:
 https://www.charged.fm/checkout/secure?tid=ex12132&qty=1
