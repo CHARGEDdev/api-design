@@ -14,7 +14,7 @@ POST
 
 **POST**
 
-- usereventid (leave out if creating an event, include it when updating)
+- usereventid (leave out if creating an event and it will return a usereventid, include it when updating)
 - title
 - description
 - time
@@ -29,37 +29,5 @@ POST
 Example:
 
 ```javascript
-{
-    "usereventid": 635,
-    "title": "Bedstuy Indie Film Gathering",
-    "description": "Private viewing of local independent films",
-    "time": "20:00:00-05:00",
-    "date": "2015-12-26",
-    "venue": {
-        "name": "Colador",
-        "address": {
-            "address_line1": "1000 Bedford Ave",
-            "address_line2": "",
-            "city": "Brooklyn",
-            "state": "New York",
-            "country": "United States",
-            "zipcode": "11205"
-        },
-        "location": {
-            "lat": "",
-            "lng": ""
-        }
-    },
-    "host": {
-    	"name": Trey LaTrash,
-    	"hostdescription": 
-	},
-    "category": {
-        "subcategory": 0,
-        "tags": movies, indie, under $20
-    },
-    "public": true,
-    "public_attendee_list": true,
-    "password": true
-}
+//incomplete currently
 ```
