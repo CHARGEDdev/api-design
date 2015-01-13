@@ -19,13 +19,26 @@ POST, PUT
 - usereventid (leave out if creating an event and it will return a usereventid, include it when updating)
 - title
 - description
-- time
-- date
-- venue
+- timeTBA
+- startTime
+- endTime
+- dateTBA
+- startDate
+- endDate
+- venueTBA
+- venueName
+- venueAddress
+- city
+- state
+- zipcode
 - host
+- hostDescription
 - category
+- subcategory
+- tags
+- displayName
 - public
-- publicattendeelist
+- publicAttendeeList
 - password
 
 Example:
