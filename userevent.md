@@ -1,4 +1,4 @@
-### **userevent/create/{id}**
+### **userevent**
 
 Deployed on branch: `api` `dev`
 
@@ -14,7 +14,7 @@ POST
 
 **POST**
 
-- usereventid
+- usereventid (leave out if creating an event, include it when updating)
 - title
 - description
 - time
