@@ -1,4 +1,4 @@
-### **me/broadcasts**
+### **me/profile**
 
 Deployed on branch: `api` `dev`
 
