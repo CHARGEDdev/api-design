@@ -32,7 +32,7 @@ http://api.charged.fm/me/followingusers
             "user": {
                 "id": 1157,
                 "username": "Z",
-                "email": "denzel@charged.fm",
+                "email": "",
                 "fullname": "Denzel Jiang",
                 "gender": "Male",
                 "birthday": "0000-00-00",
