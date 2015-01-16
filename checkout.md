@@ -9,9 +9,9 @@ Build the checkout URI with the following parameters below. Always post to `http
 * `sid` - session id (optional)
 
 ### Example:
-https://www.charged.fm/checkout/secure?tid=ex12132&qty=1
+https://www.charged.fm/checkout/item?tid=ex12132&qty=1
 
 ---
 
 ##### Note:
-You may retrieve the `tid` from the `/event/tickets/id` or `/userevent/tickets/id` endpoints.
+* You may retrieve the `tid` from the `/event/tickets/id` or `/userevent/tickets/id` endpoints.
