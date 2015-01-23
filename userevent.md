@@ -17,29 +17,29 @@ POST, PUT
 **POST**
 
 - usereventid (leave out if creating an event and it will return a usereventid, include it when updating)
-- title
-- description
-- timeTBA
-- startTime
-- endTime
-- dateTBA
-- startDate
-- endDate
-- venueTBA
-- venueName
-- venueAddress
-- city
-- state
-- zipcode
-- host
-- hostDescription
+- title: title of event
+- description: decription of event
+- timeTBA: 
+- startTime: start time - timestamp
+- endTime: end time - timestamp
+- dateTBA: 
+- startDate: day event starts
+- endDate: day event ends
+- venueTBA:
+- venueName: venue name - String
+- venueAddress: address of venue - String
+- city: name of city - String
+- state:  name of state - String
+- zipcode: integer
+- host: host's username
+- hostDescription: description of host
 - category
 - subcategory
-- tags
-- displayName
-- public
-- publicAttendeeList
-- password
+- tags: optional
+- displayName: string
+- public: boolean
+- publicAttendeeList: integer
+- password: optional
 
 Example:
 
