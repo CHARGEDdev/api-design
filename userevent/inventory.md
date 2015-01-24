@@ -12,9 +12,10 @@ load inventory of the event.
 GET
 
 #### **Example Preview**
+```
 JSON: http://api.charged.fm/userevent/inventory/{id}
 XML: http://api.charged.fm/userevent/inventory/{id}
-
+```
 #### **Endpoint**
 ```
 http://api.charged.fm/userevent/inventory/{id}
