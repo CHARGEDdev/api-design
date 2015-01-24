@@ -1,4 +1,4 @@
-### **event**
+### **Event**
 
 Deployed on branch: `api`
 
@@ -10,23 +10,21 @@ Get information of a event by event's id.
 
 GET
 
-#### **Param**
-
-**POST**
-
-Example Preview
+#### **Example Preview**
+```
 JSON: http://api.charged.fm/event/view/id/2358508
 XML: http://api.charged.fm/event/view/id/2358508.xml
-
-Endpoint
+```
+#### **Endpoint**
+```
 http://api.charged.fm/event/view/id/{EVENT_ID}
-
-Example Request
+```
+#### **Example Request**
+```
 $ curl 'http://api.charged.fm/event/view/id/2358508'
-        
-Example:
-
-```javascript
+```   
+#### **Example Response**
+```
 {
   id: 2360407,
   title: "Sleep No More",
