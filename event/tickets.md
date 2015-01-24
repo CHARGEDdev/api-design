@@ -1,4 +1,4 @@
-### **event/tickets**
+### **Event/Tickets**
 
 Deployed on branch: `api`
 
@@ -12,24 +12,25 @@ GET
 
 #### **Param**
 
-**POST**
-
 - offset: Optional. Default 0. Offset of ticket listing.
 - limit: Optional. Default 10. Limit the num of listed tickets.
 
 Example Preview
+```
 JSON: http://api.charged.fm/event/tickets/id/2342809
 XML: http://api.charged.fm/event/tickets/id/2342809.xml
-
+```
 Endpoint
+```
 http://api.charged.fm/event/tickets/id/{EVENT_ID}
-
+```
 Example Request
+```
 $ curl 'http://api.charged.fm/event/tickets/id/2342809?offset=0&limit=3'
-        
+```        
 Example:
 
-```javascript
+```
 {
    id:2342809,
    title:"Brooklyn Nets at Indiana Pacers",
