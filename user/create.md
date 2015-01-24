@@ -1,4 +1,4 @@
-### **usercreate**
+### **User/Create**
 
 Deployed on branch: `api`
 
@@ -12,24 +12,24 @@ POST
 
 #### **Param**
 
-**POST**
+- username
+- password
 
-- username:
-- password:
-
-Example Preview
+#### **Example Preview**
+```
 JSON: http://api.charged.fm/user/create/
 XML: http://api.charged.fm/user/create/
-
-Endpoint
+```
+#### **Endpoint**
+```
 http://api.charged.fm/user/create/
-
-Example Request
+```
+#### **Example Request**
+```
 $ curl 'http://api.charged.fm/user/create/'optional
-
-Example:
-
-```javascript
+```
+#### **Example Response**
+```
 {
   "status": "success",
   "API-Key": "foo"
