@@ -17,15 +17,18 @@ GET
 - keyword: Optional. No Default. Search keyword of userevents to be listed.
 
 #### **Example Preview**
+```
 JSON: http://api.charged.fm/userevent/user/uid/{User_ID}
 XML: http://api.charged.fm/userevent/user/uid/{User_ID}.xml
-
+```
 #### **Endpoint**
+```
 http://api.charged.fm/userevent/user/uid/{User_ID}
-
+```
 #### **Example Request**
+```
 $ curl 'http://api.charged.fm/userevent/user/uid/{User_ID}'
-        
+```        
 #### **Example Response**
 ```
 {
