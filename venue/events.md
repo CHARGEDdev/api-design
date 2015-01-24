@@ -10,8 +10,8 @@ Get infomation and list events of a venue by venue's id.
 GET
 
 #### **Parameters**
-offset: Optional. Default 0. Offset of events listing.
-limit: Optional. Default 10. Limit the num of listed events.
+- offset: Optional. Default 0. Offset of events listing.
+- limit: Optional. Default 10. Limit the num of listed events.
 
 #### **Example Preview**
 ```
