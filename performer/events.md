@@ -6,14 +6,14 @@ Deployed on branch: `api`
 
 Get profile and list events of a performer by performer's id.
 
-#### **Method
+#### **Method**
 GET
 
 #### **Parameters**
-```
+
 - offset: Optional. Default 0. Offset of events listing.
 - limit: Optional. Default 10. Limit the num of listed events.
-```
+
 #### **Example Preview**
 ```
 JSON: http://api.charged.fm/performer/events/id/307
