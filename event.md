@@ -1,4 +1,4 @@
-### **userevent**
+### **event**
 
 Deployed on branch: `api`
 
