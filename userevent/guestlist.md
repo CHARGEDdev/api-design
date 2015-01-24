@@ -11,13 +11,13 @@ List guest of a userevent by usereventid
 GET
 
 #### **Endpoint**
-
+```
 http://api.charged.fm/userevent/guestlist/id/{EVENT_ID}
-
+```
 #### **Example Request**
-
+```
 $ curl 'http://api.charged.fm/userevent/guestlist/id/792'
-        
+```      
 #### **Example Response**
 ```
 {
