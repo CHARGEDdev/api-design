@@ -16,12 +16,14 @@ JSON: http://api.charged.fm/userevent/inventory/{id}
 XML: http://api.charged.fm/userevent/inventory/{id}
 
 #### **Endpoint**
+```
 http://api.charged.fm/userevent/inventory/{id}
-
+```
 #### **Example Request**
+```
 $ curl 'http://api.charged.fm/userevent/inventory/{id}'
 $ curl 'http://api.charged.fm/userevent/inventory/{id}&verbose=1'
-        
+```        
 #### **Example Response**
 ```
 {
