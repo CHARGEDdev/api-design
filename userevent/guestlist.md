@@ -1,4 +1,4 @@
-### **userevent**
+### **Userevent/Guestlist**
 
 Deployed on branch: `api`
 
@@ -10,15 +10,15 @@ List guest of a userevent by usereventid
 
 GET
 
-Endpoint
+#### **Endpoint**
 
 http://api.charged.fm/userevent/guestlist/id/{EVENT_ID}
 
-Example Request
+#### **Example Request**
 
 $ curl 'http://api.charged.fm/userevent/guestlist/id/792'
         
-Example Response
+#### **Example Response**
 ```
 {
   "id": 792,
