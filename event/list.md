@@ -1,4 +1,4 @@
-### **event/list**
+### **Event/List**
 
 Deployed on branch: `api`
 
@@ -21,15 +21,18 @@ GET
 - cid: Optional. Filter on category's id
 
 Example Preview
+```
 JSON: http://api.charged.fm/event/list/
 XML: http://api.charged.fm/event/list.xml
-
+```
 Endpoint
+```
 http://api.charged.fm/event/list/
-
+```
 Example Request
+```
 $ curl 'https://api.charged.fm/event/list?pid=307&vid=20182&cid=1&limit=3'
-        
+```        
 Example:
 
 ```javascript
