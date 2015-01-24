@@ -23,7 +23,7 @@ $ curl 'http://api.charged.fm/userevent/inventory/{id}'
 $ curl 'http://api.charged.fm/userevent/inventory/{id}&verbose=1'
         
 #### **Example Response**
-
+```
 {
     "total": 5365,
     "quantity": 5339,
@@ -59,3 +59,4 @@ $ curl 'http://api.charged.fm/userevent/inventory/{id}&verbose=1'
         .
     ]
 }
+```
