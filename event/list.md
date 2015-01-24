@@ -12,8 +12,6 @@ GET
 
 #### **Param**
 
-**POST**
-
 - offset: Optional. Default 0. Offset of Event listing.
 - limit: Optional. Default 10. Limit the num of listed Event.
 - pid: Optional. filter on performer's id
