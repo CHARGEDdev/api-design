@@ -1,4 +1,4 @@
-### **userevent/tickets**
+### **Userevent/Tickets**
 
 Deployed on branch: `api`
 
@@ -10,21 +10,21 @@ Get information and list tickets of a user event by user event's id.
 
 GET
 
-#### **Param**
-
-Example Preview
+#### **Example Preview**
+```
 JSON: http://api.charged.fm/userevent/tickets/id/792
 XML: http://api.charged.fm/userevent/tickets/id/792.xml
-
-Endpoint
+```
+#### **Endpoint**
+```
 http://api.charged.fm/userevent/tickets/id/{EVENT_ID}
-
-Example Request
+```
+#### **Example Request**
+```
 $ curl 'http://api.charged.fm/userevent/tickets/id/792'
-
-Example:
-
-```javascript
+```
+#### **Example Response**
+```
 {
   "id": 792,
   "title": "The Best of Broadway",
