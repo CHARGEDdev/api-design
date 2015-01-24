@@ -22,7 +22,7 @@ http://api.charged.fm/cart/add/
 http://api.charged.fm/cart/sync/
 ```
 tickets: {"tickets":[{"tid":580772,"action":"add"},{"tid":580773,"action":"add"},{"tid":580774,"action":"add"}]}
-    ```      
+```      
 #### **Example Response**
 ```
 {
