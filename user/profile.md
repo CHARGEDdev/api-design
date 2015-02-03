@@ -33,7 +33,8 @@ http://api.dev.charged.fm/user/profile/4?access_token=29a055f6fd4a7df45854b38343
         "followers": 0,
         "following_peformers": 0,
         "following_events": 0,
-        "broadcasts": 0
+        "broadcasts": 0,
+        "userevents": 0
     },
     "isfollowing": false
 }

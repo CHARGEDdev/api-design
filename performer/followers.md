@@ -41,11 +41,12 @@ http://api.dev.charged.fm/performer/followers/389?access_token=29a055f6fd4a7df45
                 "avatar": "http://media.charged.fm/media/file_54cad7dc300a0.jpg",
                 "thumb": "http://media.charged.fm/media/file_54cad7dc30107.jpg",
                 "counts": {
-                    "following_users": "237",
-                    "followers": "249",
-                    "following_peformers": "8",
-                    "following_events": "9",
-                    "broadcasts": "0"
+                    "following_users": 237,
+                    "followers": 249,
+                    "following_peformers": 8,
+                    "following_events": 9,
+                    "broadcasts": 0,
+                    "userevents": 0
                 },
                 "isfollowing": false
             },

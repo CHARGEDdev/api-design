@@ -38,11 +38,12 @@ http://api.dev.charged.fm/user/followingUsers/5?access_token=29a055f6fd4a7df4585
                 "avatar": "http://media.charged.fm/media/file_501fde6e4e7c2.jpg",
                 "thumb": "http://media.charged.fm/media/file_501fde6e84eda.jpg",
                 "counts": {
-                    "following_users": "1",
-                    "followers": "0",
-                    "following_peformers": "1",
-                    "following_events": "0",
-                    "broadcasts": "0"
+                    "following_users": 1,
+                    "followers": 0,
+                    "following_peformers": 1,
+                    "following_events": 0,
+                    "broadcasts": 0,
+                    "userevents": 0
                 },
                 "isfollowing": false
             },

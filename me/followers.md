@@ -40,11 +40,12 @@ http://api.charged.fm/me/followers
                 "avatar": "http://media.charged.fm/media/file_501fde6e4e7c2.jpg",
                 "thumb": "http://media.charged.fm/media/file_501fde6e84eda.jpg",
                 "counts": {
-                    "following_users": "1",
-                    "followers": "0",
-                    "following_peformers": "0",
-                    "following_events": "0",
-                    "broadcasts": "0"
+                    "following_users": 1,
+                    "followers": 0,
+                    "following_peformers": 0,
+                    "following_events": 0,
+                    "broadcasts": 0,
+                    "userevents": 0
                 },
                 "isfollowing": true
             },
