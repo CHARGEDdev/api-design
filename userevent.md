@@ -8,6 +8,9 @@ Create new userevent. Use POST to create a userevent and a usereventid will be r
 Reuse that ID in future POST and PUT calls to update the user event. All fields are optional when updating.
 A "publish" endpoint will be used to publish an event and double check all data to make sure it's legit.
 
+UPDATE: the 'id' and 'updated' properties will be removed since they'll be included in the userevent object.
+Just leaving them up to keep the app working for the time being
+
 #### **Method**
 
 POST, PUT
@@ -16,6 +19,7 @@ POST, PUT
 
 **POST**
 
+- access_token
 - usereventid (leave out if creating an event and it will return a usereventid, include it when updating)
 - title: title of event
 - description: decription of event
@@ -42,7 +46,42 @@ POST, PUT
 Example:
 
 ```javascript
-//incomplete currently
+{
+    "status": "success",
+    "id": 2000,
+    "userevent": {
+        "id": "2000",
+        "userID": "113429",
+        "title": "derpz",
+        "description": "HERROZ!",
+        "startDate": "0000-00-00 00:00:00",
+        "endDate": "0000-00-00 00:00:00",
+        "venue": {
+            "name": "",
+            "address": {
+                "address": "",
+                "city": "",
+                "state": "",
+                "zipcode": "",
+                "country": ""
+            },
+            "coordinates": {
+                "latitude": "",
+                "longitude": ""
+            }
+        },
+        "tags": "",
+        "category": "0",
+        "subcategory": "0",
+        "public": "yes",
+        "url": "2000",
+        "created": "0000-00-00 00:00:00",
+        "published": "0000-00-00 00:00:00",
+        "updated": "2015-02-04 16:46:13"
+    },
+    "updated": "2015-02-04T16:48:12-05:00",
+    "code": 200
+}
 ```
 
 
