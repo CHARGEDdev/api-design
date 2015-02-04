@@ -1,6 +1,6 @@
 ### **userevent**
 
-Deployed on branch: `api` `dev`
+Deployed on branch: `dev`
 
 #### **Description**
 
