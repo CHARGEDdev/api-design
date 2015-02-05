@@ -37,8 +37,8 @@ POST, PUT
 - hostDescription: description of host
 - category
 - subcategory
-- tags: optional
-- displayName: string
+- tags: optional (comma delimited string)
+- displayName: string (Display name is what is appended to the url to make it easy to share links)
 - public: boolean
 - publicAttendeeList: integer
 - password: optional
