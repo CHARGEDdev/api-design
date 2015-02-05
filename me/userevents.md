@@ -17,7 +17,6 @@ GET
 - limit
 - min_year
 - max_year
-- data
 
 Example:
 http://api.charged.fm/me/userevents
