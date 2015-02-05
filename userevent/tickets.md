@@ -1,4 +1,4 @@
-### **Userevent/Tickets**
+### **userevent/tickets**
 
 Deployed on branch: `api`
 
