@@ -23,10 +23,10 @@ POST, PUT
 - usereventid (leave out if creating an event and it will return a usereventid, include it when updating)
 - title: title of event
 - description: decription of event
+- startDate: day event starts  
 - startTime: start time - timestamp
-- endTime: end time - timestamp
-- startDate: day event starts
-- endDate: day event ends
+- endDate: day event ends (not required)
+- endTime: end time - timestamp (not required)
 - venueTBA: boolean
 - venueName: venue name - String
 - venueAddress: address of venue - String
