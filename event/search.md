@@ -23,12 +23,12 @@ GET
 - cid: search for event of a category
 - verbose: append &verbose to enable verbose output, no value needed.
 
-Example:
-
-http://api.dev.charged.fm/event/search?limit=100&offset=100&q=new%20york%20yankees
-http://api.dev.charged.fm/event/search?latlng=40.7286587,-73.9925526&radius=1&limit=100&offset=100
-http://api.dev.charged.fm/event/search?pid=321
-http://api.dev.charged.fm/event/search?cid=306&verbose
+Examples:
+* http://api.dev.charged.fm/event/search?limit=100&offset=100&q=new%20york%20yankees
+* http://api.dev.charged.fm/event/search?latlng=40.7286587,-73.9925526&radius=1&limit=100&offset=100
+* http://api.dev.charged.fm/event/search?pid=321
+* http://api.dev.charged.fm/event/search?cid=306&verbose
+* http://api.dev.charged.fm/event/search?cid=306&latlng=40.7286587,-73.9925526
 
 ```javascript
 
