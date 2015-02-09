@@ -8,7 +8,7 @@ user sign up endpoint.
 
 `username` will be automactially generated from `firstname` and `lastname`.
 
-For example: "Hello World" will have `username` hellow , hellow1, hellow2 until the username doesnt confict with others'.
+For example: "John Doe" will have `username` johnd , johnd1, johnd2 until the username doesnt confict with others'.
 
 #### **Method**
 
