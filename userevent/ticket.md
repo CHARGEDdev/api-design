@@ -1,0 +1,54 @@
+### **userevent/ticket**
+
+Deployed on branch: `evan`
+
+#### **Description**
+
+Create and update tickets
+
+#### **Method**
+
+PUT or POST
+
+#### **Param**
+
+- access_token
+Required:
+- ticketID (Used to update ticket)
+- eventID (Only needed when ticketID is not passed to the endpoint, creates ticket, is not used after ticket is created)
+Optional:
+- name
+- description
+- type [regular, free, donation] defaults to regular
+- price
+- sellStartDate YYYY-MM-DD HH:MM:SS
+- sellEndDate YYYY-MM-DD HH:MM:SS
+- minPerOrder
+- maxPerOrder
+- capacity
+- feeOption (Not used in app yet. ignore)
+
+
+
+Example:
+http://api.evan.dev.charged.fm/userevent/ticket/
+```javascript
+{
+    "status": "success",
+    "data": {
+        "id": "3953",
+        "name": "",
+        "description": "",
+        "type": "regular",
+        "price": "25.00",
+        "capacity": "666",
+        "remaining": "0",
+        "sellStartDate": "2015-03-01 14:45:00",
+        "sellEndDate": "0000-00-00 00:00:00",
+        "minPerOrder": "0",
+        "maxPerOrder": "0",
+        "feeOption": "1"
+    },
+    "code": 200
+}
+```
