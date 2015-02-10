@@ -14,7 +14,7 @@ PUT or POST
 
 - access_token
 Required:
-- ticketID (Used to update ticket)
+- id (Ticket id used to update ticket)
 - eventID (Only needed when ticketID is not passed to the endpoint, creates ticket, is not used after ticket is created)
 Optional:
 - name
@@ -52,3 +52,23 @@ http://api.evan.dev.charged.fm/userevent/ticket/
     "code": 200
 }
 ```
+
+
+
+
+### **userevent/ticket/{id}**
+
+Deployed on branch: `evan`
+
+#### **Description**
+
+Delete ticket
+
+#### **Method**
+
+DELETE
+
+#### **Param**
+
+- access_token
+- id
