@@ -14,6 +14,7 @@ POST
 
 - access_token
 - mediaID (Upload image using the media/image endpoint and pass in the mediaID you get back)
+- eventID
 
 Example:
 
