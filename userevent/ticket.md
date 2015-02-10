@@ -72,3 +72,45 @@ DELETE
 
 - access_token
 - id
+
+
+
+### **userevent/ticket/{id}**
+
+Deployed on branch: `evan`
+
+#### **Description**
+
+Get ticket
+
+#### **Method**
+
+GET
+
+#### **Param**
+
+- access_token
+- id
+
+Example:
+http://api.evan.dev.charged.fm/userevent/ticket/3935
+```javascript
+{
+    "status": "success",
+    "data": {
+        "id": "3953",
+        "name": "",
+        "description": "",
+        "type": "regular",
+        "price": "25.00",
+        "capacity": "666",
+        "remaining": "0",
+        "sellStartDate": "2015-03-01 14:45:00",
+        "sellEndDate": "0000-00-00 00:00:00",
+        "minPerOrder": "0",
+        "maxPerOrder": "0",
+        "feeOption": "1"
+    },
+    "code": 200
+}
+```
