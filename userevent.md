@@ -65,9 +65,9 @@ Example:
                 "zipcode": "",
                 "country": ""
             },
-            "coordinates": {
-                "latitude": "",
-                "longitude": ""
+            "location": {
+                "lat": "",
+                "lng": ""
             }
         },
         "tags": "",
