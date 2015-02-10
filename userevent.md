@@ -124,9 +124,9 @@ Example:
                 "zipcode": "11201",
                 "country": "United States"
             },
-            "coordinates": {
-                "latitude": "",
-                "longitude": ""
+            "location": {
+                "lat": "",
+                "lng": ""
             }
         },
         "tags": "Music-Performance",
