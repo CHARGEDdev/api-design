@@ -12,21 +12,23 @@ PUT or POST
 
 #### **Param**
 
-- access_token
+- `access_token`
+
 Required:
-- id (Ticket id used to update ticket)
-- eventID (Only needed when ticketID is not passed to the endpoint, creates ticket, is not used after ticket is created)
+- `id` (Ticket id used to update ticket)
+- `eventID` (Only needed when ticketID is not passed to the endpoint, creates ticket, is not used after ticket is created)
+
 Optional:
-- name
-- description
-- type [regular, free, donation] defaults to regular
-- price
-- sellStartDate YYYY-MM-DD HH:MM:SS
-- sellEndDate YYYY-MM-DD HH:MM:SS
-- minPerOrder
-- maxPerOrder
-- capacity
-- feeOption (Not used in app yet. ignore)
+- `name`
+- `description`
+- `type` [regular|free|donation] - defaults to regular
+- `price`
+- `sellStartDate` YYYY-MM-DD HH:MM:SS
+- `sellEndDate` YYYY-MM-DD HH:MM:SS
+- `minPerOrder`
+- `maxPerOrder`
+- `capacity`
+- `feeOption` (Not used in app yet. ignore)
 
 
 
@@ -70,8 +72,8 @@ DELETE
 
 #### **Param**
 
-- access_token
-- id
+- `access_token`
+- `id`
 
 
 
