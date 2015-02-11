@@ -19,29 +19,29 @@ POST, PUT
 
 **POST**
 
-- access_token
-- usereventid (leave out if creating an event and it will return a usereventid, include it when updating)
-- title: title of event
-- description: decription of event
-- startDate: day event starts  
-- startTime: start time - timestamp
-- endDate: day event ends (not required)
-- endTime: end time - timestamp (not required)
-- venueTBA: boolean
-- venueName: venue name - String
-- venueAddress: address of venue - String
-- city: name of city - String
-- state:  name of state - String
-- zipcode: integer
-- host: host's username
-- hostDescription: description of host
-- category
-- subcategory
-- tags: optional (comma delimited string)
-- displayName: string (Display name is what is appended to the url to make it easy to share links)
-- public: boolean
-- publicAttendeeList: integer
-- password: optional
+- `access_token`: your user's access token, required
+- `usereventid`: id (ommit if creating an event, include to update existing event)
+- `title`: title of event (required)
+- `description`: decription of event (required)
+- `startDate`: day event starts - YYYY-MM-DD HH:MM:SS - (required) and must be date/time in the future
+- `startTime:` start time - Timestamp (optional)
+- `endDate`: day event ends - YYYY-MM-DD HH:MM:SS (optional)
+- `endTime`: end time - Timestamp (optional)
+- `venueTBA`: venue to be announced - Boolean (optional)
+- `venueName`: venue name - String (required)
+- `venueAddress`: address of venue - String (optional)
+- `city`: name of city - String (optional) 
+- `state`:  name of state - String (optional only if not US)
+- `zipcode`: integer (optional only if not US)
+- `host`: host's username (optional)
+- `hostDescription`: description of host (optional)
+- `category`: id (required)
+- `subcategory`: id (optional)
+- `tags`: optional (comma delimited string)
+- `displayName`: string (Display name is what is appended to the url to make it easy to share links)
+- `public`: boolean (optional)
+- `publicAttendeeList`: integer (optional)
+- `password`: String (optional)
 
 Example:
 
