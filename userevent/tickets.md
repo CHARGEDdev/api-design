@@ -1,6 +1,6 @@
 ### **userevent/tickets**
 
-Deployed on branch: `api`
+Deployed on branch: `evan`
 
 #### **Description**
 
@@ -12,47 +12,51 @@ GET
 
 #### **Example Preview**
 ```
-JSON: http://api.charged.fm/userevent/tickets/id/792
-XML: http://api.charged.fm/userevent/tickets/id/792.xml
+JSON: http://api.evan.dev.charged.fm/userevent/tickets/1165
+XML: http://api.evan.devcharged.fm/userevent/tickets/1165.xml
 ```
 #### **Endpoint**
 ```
-http://api.charged.fm/userevent/tickets/id/{EVENT_ID}
+http://api.evan.dev.charged.fm/userevent/tickets/{EVENT_ID}
 ```
 #### **Example Request**
 ```
-$ curl 'http://api.charged.fm/userevent/tickets/id/792'
+$ curl 'http://api.evan.dev.charged.fm/userevent/tickets/1165'
 ```
 #### **Example Response**
 ```
 {
-  "id": 792,
-  "title": "The Best of Broadway",
-  "time": 1359684000,
-  "url": "http:\/\/www.charged.fm\/userevent\/item\/792\/the-best-of-broadway",
-  "performer": "",
-  "venue": {
-    "name": "The Broadway Comedy Club",
-    "address": {
-      "address_line1": "318 W. 53rd St.",
-      "address_line2": "",
-      "city": "New York",
-      "state": "New York",
-      "country": "United States",
-      "zipcode": "10019"
-    },
-    "location": {
-      "lat": "",
-      "lng": ""
-    }
-  },
-  "tickets": [
+  status: "success",
+  data: [
     {
-      "id": "1765",
-      "name": "General Admission",
-      "price": "20.00",
-      "quantity": "180"
+      id: "2442",
+      name: "General Admission",
+      description: "",
+      type: "regular",
+      price: "10.00",
+      capacity: "1000",
+      remaining: "995",
+      sellStartDate: "0000-00-00 00:00:00",
+      sellEndDate: "0000-00-00 00:00:00",
+      minPerOrder: "0",
+      maxPerOrder: "0",
+      feeOption: "1"
+    },
+    {
+      id: "2443",
+      name: "VIP Access",
+      description: "",
+      type: "regular",
+      price: "25.00",
+      capacity: "1000",
+      remaining: "995",
+      sellStartDate: "0000-00-00 00:00:00",
+      sellEndDate: "0000-00-00 00:00:00",
+      minPerOrder: "0",
+      maxPerOrder: "0",
+      feeOption: "1"
     }
-  ]
+  ],
+  code: 200
 }
 ```
