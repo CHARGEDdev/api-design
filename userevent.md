@@ -24,15 +24,14 @@ POST, PUT
 - `title`: title of event (required)
 - `description`: decription of event (required)
 - `startDate`: day event starts - YYYY-MM-DD HH:MM:SS - (required) and must be date/time in the future
-- `startTime:` start time - Timestamp (optional)
 - `endDate`: day event ends - YYYY-MM-DD HH:MM:SS (optional)
-- `endTime`: end time - Timestamp (optional)
 - `venueTBA`: venue to be announced - Boolean (optional)
 - `venueName`: venue name - String (required)
 - `venueAddress`: address of venue - String (optional)
 - `city`: name of city - String (optional) 
 - `state`:  name of state - String (optional only if not US)
 - `zipcode`: integer (optional only if not US)
+- `country`: Country name, ex "United States"
 - `host`: host's username (optional)
 - `hostDescription`: description of host (optional)
 - `category`: id (required)
@@ -40,7 +39,7 @@ POST, PUT
 - `tags`: optional (comma delimited string)
 - `displayName`: string (Display name is what is appended to the url to make it easy to share links)
 - `public`: boolean (optional)
-- `publicAttendeeList`: integer (optional)
+- `publicAttendeeList`: boolean (optional)
 - `password`: String (optional)
 
 Example:
