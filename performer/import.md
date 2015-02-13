@@ -1,4 +1,4 @@
-### **performer/import/{id}**
+### **performer/import**
 
 Deployed on branch: `api` `dev`
 
