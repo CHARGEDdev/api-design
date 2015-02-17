@@ -12,12 +12,12 @@ GET
 
 #### **Param**
 
-- q: search terms
-- username: a username, without the '@' prepended 
-- first_name: first name of user
-- last_name: last name of user
-- offset: pagination offset
-- limit: pagination size limit
+- `q`: search terms
+- `username`: a username, without the '@' prepended 
+- `first_name`: first name of user
+- `last_name`: last name of user
+- `offset`: pagination offset
+- `limit`: pagination size limit
 
 Examples:
 * http://api.dev.charged.fm/user/search?email=henrik@charged.fm
