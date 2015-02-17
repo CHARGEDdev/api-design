@@ -17,7 +17,7 @@ GET
 
 Example:
 
-http://api.dev.charged.fm/user/attendingEvents/1157?access_token=29a055f6fd4a7df45854b38343aa5b1eedb44242
+http://api.dev.charged.fm/me/attendingEvents?access_token=29a055f6fd4a7df45854b38343aa5b1eedb44242
 
 ```javascript
 {
