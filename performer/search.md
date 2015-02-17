@@ -1,4 +1,4 @@
-### **event/search**
+### **performer/search**
 
 Deployed on branch: `api` `dev`
 
