@@ -22,7 +22,7 @@ GET
 Examples:
 * http://api.dev.charged.fm/user/search?email=henrik@charged.fm
 * http://api.dev.charged.fm/user/search?first_name=henrik&last_name=r
-* http://api.gt.dev.charged.fm/user/search?username=h
+* http://api.dev.charged.fm/user/search?username=h
 
 ```javascript
 {
