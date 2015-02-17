@@ -1,10 +1,10 @@
 ### **controller/method/{id}**
 
-Deployed on branch: `api` `dev`
+Deployed on branch: `api` | `dev`
 
 #### **Description**
 
-Berif description of endpoint.
+Brief description of endpoint.
 
 #### **Method**
 
@@ -12,12 +12,14 @@ GET or POST
 
 #### **Param**
 
-- access_token
-- offset: default 0
-- limit: default 10
-- Paramx: simple explanation
+- `access_token`
+- `offset`: default 0
+- `limit`: default 10
+- `param`: explanation of param
 
-Example:
+#### **Response**
+
+Example response
 
 ```javascript
 {
