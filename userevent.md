@@ -19,28 +19,28 @@ POST, PUT
 
 **POST**
 
-- `access_token`: your user's access token, required
-- `usereventid`: id (ommit if creating an event, include to update existing event)
-- `title`: title of event (required)
-- `description`: decription of event (required)
-- `startDate`: day event starts - YYYY-MM-DD HH:MM:SS - (required) and must be date/time in the future
+- **`access_token`**: your user's access token (required)
+- `id`: userevent id (ommit if creating an event, include to update existing event)
+- **`title`**: title of event (required)
+- **`description`**: decription of event (required)
+- **`startDate`**: day event starts - YYYY-MM-DD HH:MM:SS - (required) and must be date/time in the future
 - `endDate`: day event ends - YYYY-MM-DD HH:MM:SS (optional)
 - `venueTBA`: venue to be announced - Boolean (optional)
-- `venueName`: venue name - String (required)
+- **`venueName`**: venue name - String (required)
 - `venueAddress`: address of venue - String (optional)
 - `city`: name of city - String (optional) 
 - `state`:  name of state - String (optional only if not US)
-- `zipcode`: integer (optional only if not US)
-- `country`: Country name, ex "United States"
+- `zipcode`: integer (optional only if not United States)
+- `country`: Country name, eg. "United States"
 - `host`: host's username (optional)
 - `hostDescription`: description of host (optional)
-- `category`: id (required)
-- `subcategory`: id (optional)
-- `tags`: optional (comma delimited string)
-- `displayName`: string (Display name is what is appended to the url to make it easy to share links)
-- `public`: boolean (optional)
-- `publicAttendeeList`: boolean (optional)
-- `password`: String (optional)
+- **`category`**: category id (required)
+- `subcategory`: subcategory id (optional)
+- `tags`: tags as comma delimited string (optional)
+- `displayName`: short URL, string (the string is appended to the url www.charged.fm/<displayName>) (optional)
+- `public`: whether event is public or private, boolean, defaults to true (optional)
+- `publicAttendeeList`: whether attendee list is public or private, boolean, defaults to true (optional)
+- `password`: password protect event, string (optional)
 
 Example:
 
@@ -83,7 +83,7 @@ Example:
 }
 ```
 
-
+----------------------
 
 ### **userevent/{id}**
 
@@ -99,8 +99,8 @@ GET
 
 #### **Param**
 
-- id
-- password: optional
+- `id`: userevent id (required)
+- `password`: password for userevent (optional)
 
 Example:
 
