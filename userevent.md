@@ -13,7 +13,7 @@ Just leaving them up to keep the app working for the time being
 
 #### **Method**
 
-POST, PUT
+POST
 
 #### **Param**
 
@@ -28,10 +28,10 @@ POST, PUT
 - `venueTBA`: venue to be announced - Boolean (optional)
 - **`venueName`**: venue name - String (required)
 - `venueAddress`: address of venue - String (optional)
-- `city`: name of city - String (optional) 
-- `state`:  name of state - String (optional only if not US)
-- `zipcode`: integer (optional only if not United States)
-- `country`: Country name, eg. "United States"
+- **`city`**: name of city - String (required) 
+- *`state`*:  name of state - String (optional, but required if United States)
+- *`zipcode`*: integer (optional, but required if United States)
+- **`country`**: name of country, eg. "United States" (required) 
 - `host`: host's username (optional)
 - `hostDescription`: description of host (optional)
 - **`category`**: category id (required)
