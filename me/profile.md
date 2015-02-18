@@ -45,7 +45,13 @@ http://api.charged.fm/me/profile
         "following_events": 0,
         "broadcasts": 0,
         "userevents": 0
-    }
+    },
+    "connections": [
+        {
+            "type": "facebook",
+            "identity": "example@gmail.com"
+        }
+    ]
 }
 ```
 
@@ -107,7 +113,13 @@ Response:
         "following_events": 9,
         "broadcasts": 0,
         "userevents": 0
-    }
+    },
+    "connections": [
+        {
+            "type": "facebook",
+            "identity": "example@gmail.com"
+        }
+    ]
 }
 ```
 
