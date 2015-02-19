@@ -88,3 +88,55 @@ Response:
     }
 ]
 ```
+
+#### **Method**
+
+GET
+
+#### **Param**
+
+- access_token
+- from: source of connection. available sources are facebook
+- facebook_access_token: mandatory if from is facebook
+
+Example:
+
+Request:
+```sh
+curl 'http://api.dev.charged.fm/import/performers?access_token=charged_access_token&from=facebook&facebook_access_token=facebook_token'
+```
+
+Response:
+```javascript
+[
+    {
+        "id": "62",
+        "name": "Bob Dylan",
+        "nickname": "",
+        "url": "http://www.charged.fm/bob-dylan-tickets",
+        "images": {
+            "small": "http://media.charged.fm/photos/file_542343567ce6f.jpg",
+            "medium": "http://media.charged.fm/photos/file_54234356e33e1.jpg",
+            "large": "http://media.charged.fm/photos/file_5423435694267.jpg"
+        },
+        "taxonomy": {
+            "id": "201",
+            "category": "Classic Rock",
+            "parent": {
+                "id": "2",
+                "category": "Concert",
+                "parent": null
+            }
+        },
+        "counts": {
+            "followers": 0,
+            "broadcasts": 0
+        },
+        "score": 7.233924,
+        "isfollowing": false
+    }
+]
+```
+
+
+
