@@ -22,14 +22,18 @@ GET
 - pid: search for event of a performer
 - cid: search for event of a category
 - verbose: append &verbose to enable verbose output, no value needed.
-
+- price_from: 
+- price_to:
+- date_before:
+- date_after:
 Examples:
 * http://api.dev.charged.fm/event/search?limit=100&offset=100&q=new%20york%20yankees
 * http://api.dev.charged.fm/event/search?latlng=40.7286587,-73.9925526&radius=1&limit=100&offset=100
 * http://api.dev.charged.fm/event/search?pid=321
 * http://api.dev.charged.fm/event/search?cid=306&verbose
 * http://api.dev.charged.fm/event/search?cid=1&latlng=40.7286587,-73.9925526
-
+* http://api.dev.charged.fm/event/search?price_from=20&price_to=200&q=new%20york%20knicks&limit=10&offset=10
+* http://api.dev.charged.fm/event/search?date_after=2015-07-1&date_before=2015-10-1&q=yankees&offset=10&limit=10
 ```javascript
 {
     "total": 30,
