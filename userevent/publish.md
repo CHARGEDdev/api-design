@@ -62,11 +62,12 @@ Example response
         "tags": "",
         "category": "1",
         "subcategory": "0",
-        "public": "yes",
-        "url": "2118",
+        "public": 1,
+        "url": "http://www.charged.fm/userevent/item/2118",
         "created": "0000-00-00 00:00:00",
-        "published": "2015-02-19 13:03:51",
-        "updated": "2015-02-19 13:03:51",
+        "published": "1",
+        "datePublished": "2015-02-19 13:10:22",
+        "updated": "2015-02-19 13:10:22",
         "tickets": []
     },
     "code": 200
