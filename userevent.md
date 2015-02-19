@@ -37,7 +37,7 @@ POST
 - **`category`**: category id (required)
 - `subcategory`: subcategory id (optional)
 - `tags`: tags as comma delimited string (optional)
-- `displayName`: short URL, string (the string is appended to the url www.charged.fm/<displayName>) (optional)
+- `displayName`: short URL, string (the string is appended to the url `www.charged.fm/<displayName>` ) (optional)
 - `public`: whether event is public or private, boolean, defaults to true (optional)
 - `publicAttendeeList`: whether attendee list is public or private, boolean, defaults to true (optional)
 - `password`: password protect event, string (optional)
@@ -111,7 +111,7 @@ Example:
         "id": "1934",
         "userID": "66784",
         "title": "Dinner and a Suit on CHARGED.fm LIVE",
-        "description": "<div class=\"uiHeader fbTimelineAboutMeHeader\" style=\"margin: 15px 15px 15px 22px; color: rgb(20, 24, 35); font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12px; line-height: 15.3599996566772px; background-image: none; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;\"><div class=\"clearfix uiHeaderTop\" style=\"zoom: 1;\"></div></div><div><div><div style=\"text-align: justify;\"><div><font color=\"#062134\" ><span style=\"line-height: normal;\">We've got Dinner and a Suit coming to CHARGED.fm LIVE's Brooklyn studio, Monday @ 2PM for a rare acoustic performance that &nbsp;you won't want to miss!</span></font></div><div><font color=\"#062134\" face=\"arial\"><span style=\"line-height: normal;\"><br></span></font></div><div><font color=\"#062134\" face=\"arial\"><span style=\"line-height: normal;\">Fueled by momentum from their 2012 LP Since Our Departure, the Jersey-born, Nashville-based rock outfit has spent the past two years in motion. &nbsp;There has been non-stop touring, critical praise and global highlights â€“ all building blocks for a band on the rise â€“ that have laid the groundwork for continued exploration.</span></font></div><div><font color=\"#062134\" face=\"arial\"><span style=\"line-height: normal;\">&nbsp;</span></font></div><div><font color=\"#062134\" face=\"arial\"><span style=\"line-height: normal;\">And so itâ€™s fitting that Dinner And A Suit has released their new EP STAY on October 7, 2014.</span></font></div><div><font color=\"#062134\" face=\"arial\"><span style=\"line-height: normal;\">&nbsp;</span></font></div><div><font color=\"#062134\" face=\"arial\"><span style=\"line-height: normal;\">Written on the road, STAY is like a beam into the unified soul of this dedicated, four-piece band â€“ comprised of singer Jonathan Capeci, guitarist Joey Beretta, bassist Anthony Genca and drummer Drew Scheuer.&nbsp;</span></font></div><div><font color=\"#062134\" face=\"arial\"><span style=\"line-height: normal;\"><br></span></font></div><div><font color=\"#062134\" face=\"arial\"><span style=\"line-height: normal;\">So come on over to CHARGED.fm and live LIVE with us and Dinner and a suit!&nbsp;</span></font></div><div><font color=\"#062134\" face=\"arial\"><span style=\"line-height: normal;\"><br></span></font></div><div><font color=\"#062134\" face=\"arial\"><span style=\"line-height: normal;\">Please RSVP to this event to attend!</span></font></div></div></div><div><br></div></div>",
+        "description": "<p>This is my description!</p>",
         "startDate": "2014-11-24 00:00:00",
         "endDate": "2014-11-24 00:00:00",
         "venue": {
