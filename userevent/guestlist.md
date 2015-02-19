@@ -1,4 +1,4 @@
-### **Userevent/Guestlist**
+### **userevent/guestlist**
 
 Deployed on branch: `api`
 
