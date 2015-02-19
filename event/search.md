@@ -12,20 +12,22 @@ GET
 
 #### **Param**
 
-- q: search terms
-- offset: pagination offset
-- limit: pagination size limit
-- latlng: comma sperated latlng, example: 40.723301,-74.0029883
-- radius: default to 5 miles.
-- latlng.ne: bounds search northeast, example: 40.7283442,-73.9958967
-- latlng.sw: bounds search southwest, example: 40.7189454,-74.0054619
-- pid: search for event of a performer
-- cid: search for event of a category
-- verbose: append &verbose to enable verbose output, no value needed.
-- price_from: 
-- price_to:
-- date_before:
-- date_after:
+- `q`: search terms
+- `offset`: pagination offset
+- `limit`: pagination size limit
+- `latlng`: comma sperated latlng, example: 40.723301,-74.0029883
+- `radius`: default to 5 miles.
+- `latlng.ne`: bounds search northeast, example: 40.7283442,-73.9958967
+- `latlng.sw`: bounds search southwest, example: 40.7189454,-74.0054619
+- `pid`: search for event of a performer
+- `cid`: search for event of a category
+- `verbose`: append &verbose to enable verbose output, no value needed.
+- `price_from`: return all events above this price, integer
+- `price_to`: return all events below this price, integer
+- `date_before`: return all events after this date, YYYY-MM-DD
+- `date_after`: return all events before this date, YYYY-MM-DD
+
+
 Examples:
 * http://api.dev.charged.fm/event/search?limit=100&offset=100&q=new%20york%20yankees
 * http://api.dev.charged.fm/event/search?latlng=40.7286587,-73.9925526&radius=1&limit=100&offset=100
@@ -33,7 +35,8 @@ Examples:
 * http://api.dev.charged.fm/event/search?cid=306&verbose
 * http://api.dev.charged.fm/event/search?cid=1&latlng=40.7286587,-73.9925526
 * http://api.dev.charged.fm/event/search?price_from=20&price_to=200&q=new%20york%20knicks&limit=10&offset=10
-* http://api.dev.charged.fm/event/search?date_after=2015-07-1&date_before=2015-10-1&q=yankees&offset=10&limit=10
+* http://api.dev.charged.fm/event/search?date_after=2015-07-01&date_before=2015-10-1&q=yankees&offset=10&limit=10
+
 ```javascript
 {
     "total": 30,
