@@ -32,6 +32,8 @@ POST
 - *`state`*:  name of state - String (optional, but required if United States)
 - *`zipcode`*: integer (optional, but required if United States)
 - **`country`**: name of country, eg. "United States" (required) 
+- `lat`: latitude coordinate for venue, float (optional)
+- `lng`: longitude coordinate for venue, float (optional)
 - `host`: host's username (optional)
 - `hostDescription`: description of host (optional)
 - **`category`**: category id (required)
