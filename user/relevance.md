@@ -28,16 +28,21 @@ http://api.dev.charged.fm/user/relevance/43924
     "biography": "",
     "avatar": "http://media.charged.fm/media/file_5334b363c6bd0.jpg",
     "thumb": "http://media.charged.fm/media/file_5334b364043a8.jpg",
-    "score": {
-        "ticket_purchase": "5",
-        "ticket_sale": "5",
-        "userevent_rsvp": "1",
-        "userevent_broadcast": "2",
-        "event_broadcast": "1",
-        "event_broadcast_like": "1",
-        "me_follow": "1",
-        "me_connect": "2",
-        "me_account": "3"
+    "relevance": {
+        "score": 21,
+        "points": [
+            {
+                "ticket_purchase": 5,       //purchasing a ticket
+                "ticket_sale": 5,           //selling a ticket
+                "userevent_rsvp": 1,        //somebody RSVPs to your event
+                "userevent_broadcast": 2,   //somebody broadcasts your event
+                "event_broadcast": 1,       //you broadcast an event
+                "event_broadcast_like": 1,  //somebody likes your broadcast
+                "me_follow": 1,             //somebody follows you
+                "me_connect": 2,            //connecting a social media account
+                "me_account": 3             //signing up
+            }
+        ]
     }
 }
 ```
