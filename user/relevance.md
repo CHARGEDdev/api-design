@@ -15,7 +15,7 @@ Get
 
 Example:
 
-http://api.dev.charged.fm/user/relevance/43924
+http://api.gt.dev.charged.fm/user/relevance/43924
 
 ```javascript
 {
