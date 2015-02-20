@@ -1,6 +1,6 @@
 ### **userevent/ticket**
 
-Deployed on branch: `evan`
+Deployed on branch: `dev`
 
 #### **Description**
 
@@ -33,22 +33,22 @@ Optional:
 
 
 Example:
-http://api.evan.dev.charged.fm/userevent/ticket/
+http://api.dev.charged.fm/userevent/ticket
 ```javascript
 {
     "status": "success",
     "data": {
-        "id": "3953",
-        "name": "",
-        "description": "",
+        "id": "3964",
+        "name": "Early Bird",
+        "description": "Hey",
         "type": "regular",
-        "price": "25.00",
-        "capacity": "666",
+        "price": "10.00",
+        "capacity": "100",
         "remaining": "0",
-        "sellStartDate": "2015-03-01 14:45:00",
+        "sellStartDate": "2015-02-20 00:00:00",
         "sellEndDate": "0000-00-00 00:00:00",
-        "minPerOrder": "0",
-        "maxPerOrder": "0",
+        "minPerOrder": "1",
+        "maxPerOrder": "4",
         "feeOption": "1"
     },
     "code": 200
@@ -100,17 +100,17 @@ http://api.evan.dev.charged.fm/userevent/ticket/3935
 {
     "status": "success",
     "data": {
-        "id": "3953",
-        "name": "",
-        "description": "",
+        "id": "3964",
+        "name": "Early Bird",
+        "description": "Hey",
         "type": "regular",
-        "price": "25.00",
-        "capacity": "666",
+        "price": "10.00",
+        "capacity": "100",
         "remaining": "0",
-        "sellStartDate": "2015-03-01 14:45:00",
+        "sellStartDate": "2015-02-20 00:00:00",
         "sellEndDate": "0000-00-00 00:00:00",
-        "minPerOrder": "0",
-        "maxPerOrder": "0",
+        "minPerOrder": "1",
+        "maxPerOrder": "4",
         "feeOption": "1"
     },
     "code": 200
