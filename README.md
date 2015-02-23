@@ -1,12 +1,16 @@
-api-design
-==========
+CHARGED.fm API
+==============
 
-- `api`: api.charged.fm
-- `dev`: api.dev.charged.fm
+Design Documentation for the CHARGED.fm API `w00t!`
 
-This is endpoints doc [Template](https://github.com/denzeus/api-design/blob/master/template.md).
+#### Branches:
+- `api`: https://api.charged.fm
+- `dev`: https://api.dev.charged.fm
 
-Open an issue if any comments or changing request on the endpoints.
+#### Resources: 
+- [Open an issue](https://github.com/denzeus/api-design/issues/new) if you have any comments or request a change to the endpoints
+- Contribute and add using this [documentation template](https://github.com/denzeus/api-design/blob/master/template.md)
 
-#### Todo
-- [ ] broadcast
+#### To Do:
+- [x] broadcast
+- [ ] Code merge: api.dev.charged.fm => api.charged.fm @evride @denzeljiang 
