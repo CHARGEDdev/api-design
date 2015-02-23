@@ -1,4 +1,4 @@
-### **Event**
+### **event/view/id/{id}**
 
 Deployed on branch: `api`
 
