@@ -4,10 +4,10 @@ Deployed on branch: `api` `dev`
 
 #### **Description**
 
-Oauth sign in endpoind. Two type of sign in method supported.
+Oauth sign in endpoint. Two types of sign in methods are supported:
 
-1. normal `email` `password` sign in
-2. sign in with facebook
+1. Regular: sign in with CHARGED.fm `email` and `password`
+2. Social: sign in with `Facebook` 
 
 #### **Method**
 
@@ -15,12 +15,12 @@ GET
 
 #### **Param**
 
-- client_id: app id
-- redirect_uri: app redirect uri
-- scope: permission scopes
-- response_type: always be `code`
-- type: optional, type of social network sign in. `facebook` is supported 
-- facebook_access_token: mandatory if `type` is `facebook`
+- `client_id`: app id
+- `redirect_uri`: app redirect uri
+- `scope`: permission scopes
+- `response_type`: always be `code`
+- `type`: optional, type of social network sign in. `facebook` is supported 
+  - `facebook_access_token`: required if `type=facebook`
 
 Response:
 
