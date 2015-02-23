@@ -20,7 +20,20 @@ GET
 - `scope`: permission scopes
 - `response_type`: always be `code`
 - `type`: optional, type of social network sign in. `facebook` is supported 
-  - `facebook_access_token`: required if `type=facebook`
+- `facebook_access_token`: required if `type=facebook`
+
+Example Request:
+
+Normal user login: 
+```sh
+curl http://api.charged.fm/oauth?client_id=app_id&redirect_uri=http://charged/oauth&scope=god&response_type=code
+```
+
+Facebook user login: 
+```sh
+curl http://api.charged.fm/oauth?client_id=app_id&redirect_uri=http://charged/oauth&scope=god&response_type=code
+&type=facebook&facebook_access_token=your_fb_token
+```
 
 Response:
 
