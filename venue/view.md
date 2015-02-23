@@ -1,4 +1,4 @@
-### **Venue**
+### **venue/view/id/{id}**
 
 Deployed on branch: `api`
 
