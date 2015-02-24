@@ -1,6 +1,6 @@
 ### **userevent/image**
 
-Deployed on branch: `evan`
+Deployed on branch: `dev`
 
 #### **Description**
 
@@ -12,9 +12,9 @@ POST
 
 #### **Param**
 
-- access_token
-- mediaID (Upload image using the [media/image](https://github.com/denzeus/api-design/blob/master/media/image.md) endpoint and pass in the `mediaID` you get back)
-- eventID
+- `access_token`: your access token, (required)
+- `mediaID`: a media id from your [media library `media/images`](https://github.com/denzeus/api-design/blob/master/media/images.md). Upload an image to your media library using the [`media/image`](https://github.com/denzeus/api-design/blob/master/media/image.md) endpoint. (required)
+- `eventID`: the userevent id (required)
 
 Example:
 
@@ -22,94 +22,93 @@ Example:
 {
     "status": "success",
     "data": {
-        "id": "459",
+        "id": "2118",
         "userID": "3",
-        "title": "Thirsty Thursdays",
-        "description": "...",
-        "image": "http://media.charged.fm/photos/usergen/events/standard_1423598641_9zf5UyEF.png",
-        "startDate": "2012-08-09 00:00:00",
-        "endDate": "2012-08-09 00:00:00",
+        "title": "SXBK",
+        "description": "South By South Brooklyn",
+        "startDate": "2015-03-01 19:15:00",
+        "endDate": "0000-00-00 00:00:00",
         "venue": {
-            "name": "DUM-Beer-O-Central",
+            "name": "CHARGED.fm",
             "address": {
-                "address_line1": "10 Jay St",
+                "address_line1": "",
                 "address_line2": "",
                 "city": "Brooklyn",
-                "state": "New York",
-                "zipcode": "11201",
+                "state": "NY",
+                "zipcode": "10017",
                 "country": "United States"
             },
             "location": {
-                "lat": 0,
-                "lng": 0
+                "lat": 40.704578,
+                "lng": -73.986794
             }
         },
-        "tags": "-",
-        "category": "0",
+        "tags": "",
+        "category": "1",
         "subcategory": "0",
-        "public": "no",
-        "url": "http://www.charged.fm/userevent/item/459",
+        "public": 1,
+        "url": "http://www.charged.fm/userevent/item/2118",
         "created": "0000-00-00 00:00:00",
-        "published": "0000-00-00 00:00:00",
-        "updated": "2015-02-10 15:48:55",
-        "tickets": [
-            {
-                "id": "1077",
-                "name": "Easy Goin'",
-                "description": "RSVP and get 1 beer free! Sweet.",
-                "type": "regular",
-                "price": "0.00",
-                "capacity": "10",
-                "remaining": "10",
-                "sellStartDate": "0000-00-00 00:00:00",
-                "sellEndDate": "0000-00-00 00:00:00",
-                "minPerOrder": "0",
-                "maxPerOrder": "0",
-                "feeOption": "2"
+        "published": "1",
+        "datePublished": "2015-02-23 10:40:08",
+        "updated": "2015-02-24 14:56:50",
+        "tickets": {
+            "price_highest": "10.25",
+            "price_lowest": "5.00",
+            "quantity": "2",
+            "tickets": [
+                {
+                    "id": "3964",
+                    "name": "Early Bird",
+                    "description": "Hey",
+                    "type": "regular",
+                    "price": "10.25",
+                    "capacity": "100",
+                    "remaining": "96",
+                    "sellStartDate": "2015-02-20 00:00:00",
+                    "sellEndDate": "0000-00-00 00:00:00",
+                    "minPerOrder": "1",
+                    "maxPerOrder": "4",
+                    "feeOption": "1"
+                },
+                {
+                    "id": "3970",
+                    "name": "GA",
+                    "description": "Test update ticket",
+                    "type": "regular",
+                    "price": "5.00",
+                    "capacity": "0",
+                    "remaining": "0",
+                    "sellStartDate": "0000-00-00 00:00:00",
+                    "sellEndDate": "0000-00-00 00:00:00",
+                    "minPerOrder": "0",
+                    "maxPerOrder": "0",
+                    "feeOption": "1"
+                }
+            ]
+        },
+        "images": {
+            "square_small": {
+                "url": "http://media.charged.fm/photos/usergen/events/2118square_small1424815063.jpg",
+                "width": "160",
+                "height": "160"
             },
-            {
-                "id": "1078",
-                "name": "2 for 1",
-                "description": "Beers for a buck get yer 2nd round free!",
-                "type": "regular",
-                "price": "1.00",
-                "capacity": "10",
-                "remaining": "10",
-                "sellStartDate": "0000-00-00 00:00:00",
-                "sellEndDate": "0000-00-00 00:00:00",
-                "minPerOrder": "0",
-                "maxPerOrder": "0",
-                "feeOption": "2"
+            "square_standard": {
+                "url": "http://media.charged.fm/photos/usergen/events/2118square_standard1424815062.jpg",
+                "width": "320",
+                "height": "320"
             },
-            {
-                "id": "1079",
-                "name": "Support Local",
-                "description": "Pay what you want¦ beers guaranteed! \nIf you have a preference, please leave a note.",
-                "type": "regular",
-                "price": "0.00",
-                "capacity": "10",
-                "remaining": "10",
-                "sellStartDate": "0000-00-00 00:00:00",
-                "sellEndDate": "0000-00-00 00:00:00",
-                "minPerOrder": "0",
-                "maxPerOrder": "0",
-                "feeOption": "2"
+            "square_large": {
+                "url": "http://media.charged.fm/photos/usergen/events/2118square_large1424815062.jpg",
+                "width": "640",
+                "height": "640"
             },
-            {
-                "id": "1080",
-                "name": "Beer Flights",
-                "description": "RSVP and get a sampler of the beers featured this Thirsty Thursday!",
-                "type": "regular",
-                "price": "0.00",
-                "capacity": "10",
-                "remaining": "10",
-                "sellStartDate": "0000-00-00 00:00:00",
-                "sellEndDate": "0000-00-00 00:00:00",
-                "minPerOrder": "0",
-                "maxPerOrder": "0",
-                "feeOption": "2"
+            "banner": {
+                "url": "http://media.charged.fm/photos/usergen/events/2118banner1424815061.jpg",
+                "width": "1024",
+                "height": "576"
             }
-        ]
+        }
     },
     "code": 200
 }
