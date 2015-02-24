@@ -10,6 +10,11 @@ Get information of a event by event's id.
 
 GET
 
+#### **Param**
+
+- `access_token`: your access token, (required)
+- `id`: event id, (required)
+
 #### **Example Preview**
 ```
 JSON: http://api.charged.fm/event/details/2683180
@@ -21,7 +26,7 @@ http://api.charged.fm/event/details/{EVENT_ID}
 ```
 #### **Example Request**
 ```
-$ curl 'http://api.charged.fm/event/details/2683180'
+$ curl 'http://api.charged.fm/event/details/2683180?access_token=29a055f6fd4a7df45854b38343aa5b1eedb44242'
 ```   
 #### **Example Response**
 ```
