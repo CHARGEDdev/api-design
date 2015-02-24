@@ -13,7 +13,8 @@ POST
 #### **Param**
 
 - `access_token`: your access token, (required)
-- `mediaID`: a media id from your [media library `media/images`](https://github.com/denzeus/api-design/blob/master/media/images.md). Upload an image to your media library using the [`media/image`](https://github.com/denzeus/api-design/blob/master/media/image.md) endpoint. (required)
+- `mediaID`: a media id from your [media library `media/images`](https://github.com/denzeus/api-design/blob/master/media/images.md) (required) 
+    - Upload an image to your media library using the [`media/image`](https://github.com/denzeus/api-design/blob/master/media/image.md) endpoint
 - `eventID`: the userevent id (required)
 
 Example:
