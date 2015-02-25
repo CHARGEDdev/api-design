@@ -13,15 +13,22 @@ POST
 #### **Param**
 
 - access_token
+- autofollow: if this param is presented in url, user will auto follow suggested performers.
 - data: json encoded array of performers
 
 Example:
 
 Request:
 ```sh
-curl 'http://api.charged.fm/performer/import?access_token=token' \
+curl 'http://api.charged.fm/import/performers?access_token=token' \
 -F 'data=["nets","knicks","taylor"]'
 ```
+Auto follow performers
+```sh
+curl 'http://api.charged.fm/import/performers?access_token=token&autofollow' \
+-F 'data=["nets","knicks","taylor"]'
+```
+
 
 Response:
 ```javascript
@@ -96,6 +103,7 @@ GET
 #### **Param**
 
 - access_token
+- autofollow: if this param is presented in url, user will auto follow suggested performers.
 - from: source of connection. available sources are facebook
 - facebook_access_token: mandatory if from is facebook
 
@@ -104,6 +112,10 @@ Example:
 Request:
 ```sh
 curl 'http://api.dev.charged.fm/import/performers?access_token=charged_access_token&from=facebook&facebook_access_token=facebook_token'
+```
+Auto follow: 
+```sh
+curl 'http://api.dev.charged.fm/import/performers?access_token=charged_access_token&from=facebook&facebook_access_token=facebook_token&autofollow'
 ```
 
 Response:
