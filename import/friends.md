@@ -19,6 +19,7 @@ GET
 #### **Param**
 
 - access_token
+- autofollow: if this param is presented in url, user will auto follow suggested friends.
 - from: source of connection. available sources are `facebook`
 - facebook_access_token: mandatory if `from` is `facebook`
 
@@ -27,6 +28,10 @@ Example:
 Request:
 ```sh
 curl 'http://api.dev.charged.fm/import/friends?access_token=charged_access_token&from=facebook&facebook_access_token=facebook_token'
+```
+
+```sh
+curl 'http://api.dev.charged.fm/import/friends?access_token=charged_access_token&from=facebook&facebook_access_token=facebook_token&autofollow'
 ```
 
 Response:
