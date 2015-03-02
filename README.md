@@ -4,7 +4,7 @@ CHARGED.fm API
 Design Documentation for the CHARGED.fm API `w00t!`
 
 #### Branches:
-- `api`: https://api.charged.fm
+- `api`: https://api.charged.fm/v1.1
 - `dev`: https://api.dev.charged.fm
 
 #### Resources: 
@@ -13,4 +13,4 @@ Design Documentation for the CHARGED.fm API `w00t!`
 
 #### To Do:
 - [x] broadcast
-- [ ] Code merge: api.dev.charged.fm => api.charged.fm @evride @denzeljiang 
+- [x] Code merge: api.dev.charged.fm => api.charged.fm/v1.1 @evride @denzeljiang 
