@@ -1,6 +1,6 @@
 ### **import/performers**
 
-Deployed on branch: `api` `dev`
+Deployed on branch: `api` `dev` `v1.1`
 
 #### **Description**
 
