@@ -60,6 +60,7 @@ Response:
             "followers": 2,
             "broadcasts": 0
         },
+        "term": "brooklyn nets",
         "score": 8.142126,
         "isfollowing": false
     },
@@ -90,6 +91,7 @@ Response:
             "followers": 0,
             "broadcasts": 0
         },
+        "term": "nicks",
         "score": 7.855419,
         "isfollowing": false
     }
@@ -145,6 +147,7 @@ Response:
             "followers": 0,
             "broadcasts": 0
         },
+        "term": "bob dylan",
         "score": 7.233924,
         "isfollowing": false
     }
