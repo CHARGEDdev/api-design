@@ -104,8 +104,9 @@ GET
 
 - access_token
 - autofollow: if this param is presented in url, user will auto follow suggested performers.
-- from: source of connection. available sources are facebook
+- from: source of connection. available sources are facebook, spotify
 - facebook_access_token: mandatory if from is facebook
+- spotify_access_token: mandatory if from is spotify
 
 Example:
 
