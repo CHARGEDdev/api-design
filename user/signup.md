@@ -16,11 +16,12 @@ POST
 
 #### **Param**
 
-- email: email address to register
-- password: 5 character at least
-- password_repeat: 5 character at least
-- firstname: first name
-- lastname: last name
+- `email`: email address to register
+- `password`: minimum of 5 characters
+- `password_repeat`: minimum of 5 characters, must match `password`
+- `firstname`: user's first name
+- `lastname`: user's last name
+- `username`: letters, numbers and '_' only
 
 Example:
 
