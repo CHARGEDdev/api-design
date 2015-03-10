@@ -15,7 +15,6 @@ GET
 - total
 - offset
 - limit
-- data
 
 Example:
 http://api.charged.fm/me/followers
