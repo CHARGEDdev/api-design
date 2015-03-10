@@ -1,4 +1,4 @@
-### **me/followingperformers**
+### **me/followingPerformers**
 
 Deployed on branch: `api` `dev`
 
@@ -15,7 +15,6 @@ GET
 - total
 - offset
 - limit
-- data
 
 Example:
 http://api.charged.fm/me/followingperformers
