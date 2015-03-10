@@ -1,4 +1,4 @@
-### **me/followingusers**
+### **me/followingUsers**
 
 Deployed on branch: `api` `dev`
 
