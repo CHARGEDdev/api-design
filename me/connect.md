@@ -1,4 +1,4 @@
-### **controller/method/{id}**
+### **me/connect**
 
 Deployed on branch: `api` | `dev`
 
