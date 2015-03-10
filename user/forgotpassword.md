@@ -1,4 +1,4 @@
-### **user/forgotpassword/{id}**
+### **user/forgotpassword**
 
 Deployed on branch: `api` | `dev`
 
