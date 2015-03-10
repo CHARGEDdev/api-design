@@ -74,6 +74,7 @@ PUT
 - `access_token`
 - `firstname`: optional
 - `lastname`: mandatory if `firstname` is present
+- `username`: optional
 - `email`: optional
 - `gender`: optional, 'Male' or 'Female'
 - `birthday`: optional, format should be 1900-01-01
