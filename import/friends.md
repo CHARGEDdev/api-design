@@ -20,8 +20,10 @@ GET
 
 - access_token
 - autofollow: if this param is presented in url, user will auto follow suggested friends.
-- from: source of connection. available sources are `facebook`
+- from: source of connection. available sources are `facebook`, `twitter`
 - facebook_access_token: mandatory if `from` is `facebook`
+- twitter_oauth_token: mandatory if `from=twitter`
+- twitter_oauth_token_secret: mandatory if `from=twitter`
 
 Example:
 
