@@ -19,8 +19,10 @@ GET
 - `redirect_uri`: app redirect uri
 - `scope`: permission scopes
 - `response_type`: always be `code`
-- `type`: optional, type of social network sign in. `facebook` is supported 
+- `type`: optional, type of social network sign in. `facebook` and `twitter` are supported 
 - `facebook_access_token`: required if `type=facebook`
+- `twitter_oauth_token`: required if `type=twitter`
+- `twitter_oauth_token_secret`: required if `type=twitter`
 
 Example Request:
 
@@ -33,6 +35,12 @@ Facebook user login:
 ```sh
 curl http://api.charged.fm/oauth?client_id=app_id&redirect_uri=http://charged/oauth&scope=god&response_type=code
 &type=facebook&facebook_access_token=your_fb_token
+```
+
+Facebook user login: 
+```sh
+curl http://api.charged.fm/oauth?client_id=app_id&redirect_uri=http://charged/oauth&scope=god&response_type=code
+&type=twitter&twitter_oauth_token=your_oauth_token&twitter_oauth_token_secret=your_oauth_token_secret
 ```
 
 Response:
