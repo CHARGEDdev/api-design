@@ -15,8 +15,10 @@ POST
 #### **Param**
 
 - `access_token`
-- `from`: source of connection. available sources are `facebook`
+- `from`: source of connection. available sources are `facebook`, `twitter`
 - `facebook_access_token`: mandatory if `from` is facebook
+- `twitter_oauth_token`: mandatory if `from=twitter`
+- `twitter_oauth_token_secret`: mandatory if `from=twitter`
 
 
 #### **Example**
@@ -33,8 +35,8 @@ response
 ```javascript
 {
     "id": 172393,
-    "username": "zerongj",
-    "email": "denzeljiang@gmail.com",
+    "username": "zj",
+    "email": "test@gmail.com",
     "fullname": "Zerong Jiang",
     "gender": "Male",
     "birthday": "0000-00-00",
@@ -53,7 +55,7 @@ response
     "connections": [
         {
             "type": "facebook",
-            "identity": "denzeljiang@gmail.com"
+            "identity": "test@gmail.com"
         }
     ]
 }
