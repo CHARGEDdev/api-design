@@ -37,7 +37,7 @@ curl http://api.charged.fm/oauth?client_id=app_id&redirect_uri=http://charged/oa
 &type=facebook&facebook_access_token=your_fb_token
 ```
 
-Facebook user login: 
+Twitter user login: 
 ```sh
 curl http://api.charged.fm/oauth?client_id=app_id&redirect_uri=http://charged/oauth&scope=god&response_type=code
 &type=twitter&twitter_oauth_token=your_oauth_token&twitter_oauth_token_secret=your_oauth_token_secret
