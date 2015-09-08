@@ -160,7 +160,7 @@ You guys can **ignore** this param, since the transaction happens on the affilia
 
 **This ticket in the example is a test ticket on our site, it's safe to POST the information if you guys want to test.**
 
-[http://api.charged.fm/affiliate/checkout?access_token=b98da03282359144452fe91fd3032da1c0a5f65f](http://api.charged.fm/affiliate/checkout?access_token=b98da03282359144452fe91fd3032da1c0a5f65f)
+[https://api.charged.fm/affiliate/checkout?access_token=b98da03282359144452fe91fd3032da1c0a5f65f](https://api.charged.fm/affiliate/checkout?access_token=b98da03282359144452fe91fd3032da1c0a5f65f)
 
 ```
 eid: 2556535
@@ -206,7 +206,7 @@ Save at least `orderId` for future API requests. `orderNumber` is more for a cus
 - `limit`: defaults to 10
 
 **Example Request:**  
-[http://api.charged.fm/affiliate/orders?access_token=b98da03282359144452fe91fd3032da1c0a5f65f&orderId=195207](http://api.charged.fm/affiliate/orders?access_token=b98da03282359144452fe91fd3032da1c0a5f65f&orderId=195207)
+[https://api.charged.fm/affiliate/orders?access_token=b98da03282359144452fe91fd3032da1c0a5f65f&orderId=195207](https://api.charged.fm/affiliate/orders?access_token=b98da03282359144452fe91fd3032da1c0a5f65f&orderId=195207)
 
 **Example Response:**
 
@@ -217,7 +217,7 @@ Save at least `orderId` for future API requests. `orderNumber` is more for a cus
     "eticket": true,
     "quantity": 1,
     "status": "DELIVERED",
-    "ticketFile": "http://web1.charged.fm/orders/tickets/11509195207/0a507aa920a8bfd2f43c9ac1440f9ad6.pdf"
+    "ticketFile": "https://web1.charged.fm/orders/tickets/11509195207/0a507aa920a8bfd2f43c9ac1440f9ad6.pdf"
 }
 ```
 
