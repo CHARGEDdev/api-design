@@ -9,7 +9,7 @@ We will use _Andy The Affiliate_'s access token for demonstration purposes. Her 
 #### 1. ticket/validate
 
 The response is basically using the same structure with `event/tickets` endpoint but returning the no-cached ticket data with detailed fees and shipping information.
-The endpoint is optional for you guys since only electronic and real-time tickets are fed to the Affiliate.
+The endpoint is optional since only electronic and real-time tickets are fed to the Affiliate.
 
 **Method:** GET
 
@@ -74,7 +74,7 @@ The endpoint is optional for you guys since only electronic and real-time ticket
 
 The endpoint will place order on CHARGED.fm’s platform, and return the order information for future reference.
 
-Some of the parameters are optional for you guys since the transaction happens on the Affiliate’s side and all tickets are e-ticket. But we still listed all possible parameters to help you guys better understanding how’s our affiliate checkout works.
+Some of the parameters are optional since the transaction happens on the Affiliate’s side and all tickets are e-ticket. But we still listed all possible parameters to help better understand how our affiliate checkout works.
 
 **Method:** POST
 
@@ -88,43 +88,54 @@ Some of the parameters are optional for you guys since the transaction happens o
 
 ```
   {
-    "first_name": "first",
-    "last_name": "last",
+    "first_name": "Bill",
+    "last_name": "McBuyermanamon",
     "email": "test@gmail.com",
     "phone_number": "917-000-0000",
     "address": {
-      "first_name": "first",
-      "last_name": "last",
+      "first_name": "Billford",
+      "last_name": "McBuyermanamon",
       "address_line1": "1 Broadway",
-      "address_line2": "",
+      "address_line2": "Apt PH1",
       "city": "New York",
-      "state": "New York",
+      "state": "NY",
       "zipcode": "10004",
-      "country": "United States of America"
+      "country": "US"
     },
     "billing_address": {
-      "first_name": "first",
-      "last_name": "last",
+      "first_name": "Bartholomew",
+      "last_name": "McBuyermanamon",
       "address_line1": "1 Broadway",
-      "address_line2": "",
+      "address_line2": "Apt PH1",
       "city": "New York",
-      "state": "New York",
+      "state": "NY",
       "zipcode": "10004",
-      "country": "United States of America"
+      "country": "US"
     }
   }
   
 ```
 
 Since the transaction happens on the affiliate’s side.  
-We need **at least** the minimal amount of information to handle customer service. 
+We need **at least** the minimal amount of information to handle customer service and to work with our sellers.
+Please provide:
 
 ```
   {
     "first_name": "John",
-    "last_name": "Doe",
-    "email": "john.doe@gmail.com",
-    "phone_number": "917-000-0000"
+    "last_name": "Dollarshire",
+    "email": "john.dollarshire@gmail.com",
+    "phone_number": "917-718-0212",
+    "address": {
+      "first_name": "John",
+      "last_name": "Dollarshire",
+      "address_line1": "10 Maiden Ln",
+      "address_line2": "Apt 30G",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10038",
+      "country": "US"
+    }
   }
 ```
 
@@ -137,7 +148,7 @@ We need **at least** the minimal amount of information to handle customer servic
   }
 ```
 	
-You guys can **ignore** this param, since the transaction happens on the affiliate’s side. And all tickets are e-ticket. 
+You can **ignore** this param, since the transaction happens on the affiliate’s side. And all tickets are e-ticket. 
 
 - payment: payment information in JSON 
 
@@ -154,11 +165,11 @@ You guys can **ignore** this param, since the transaction happens on the affilia
   }
 ```
 
-You guys can **ignore** this param, since the transaction happens on the affiliate’s side. 
+You can **ignore** this param, since the transaction happens on the affiliate’s side. 
 
 **Example Request:**
 
-**This ticket in the example is a test ticket on our site, it's safe to POST the information if you guys want to test.**
+**This ticket in the example is a test ticket on our site, it's safe to POST the information if you want to test.**
 
 [https://api.charged.fm/affiliate/checkout?access_token=b98da03282359144452fe91fd3032da1c0a5f65f](https://api.charged.fm/affiliate/checkout?access_token=b98da03282359144452fe91fd3032da1c0a5f65f)
 
@@ -233,8 +244,8 @@ The status in the response may have the following values:
 
 #### Please note: 
 
-1) You may need to check this endpoint regularly after the order is placed to deliver tickets to your customers ASAP.
+1) You may need to check this endpoint regularly after the order is placed to deliver tickets to your customers promptly.
 
-2) After you guys integrated these endpoints, we can send some test tickets information to test.
+2) After you have integrated these endpoints, you may request test tickets data to begin testing.
 
-3) And if these's any question or information you guys think is necessary to add into the endpoints just let us know.
+3) If there are any questions or further information you think is necessary to add to the endpoints, please let us know.
