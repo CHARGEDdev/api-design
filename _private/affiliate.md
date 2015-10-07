@@ -158,8 +158,8 @@ You can **ignore** this param, since the transaction happens on the affiliate’
     "type": "credit_card",
     "credit_card": {
       "type": "visa",
-      "number": "44444",
-      "expire": "0919",
+      "number": "4111111111111111",
+      "expire": "0420",
       "cvv": "000"
     }
   }
@@ -174,10 +174,10 @@ You can **ignore** this param, since the transaction happens on the affiliate’
 [https://api.charged.fm/affiliate/checkout?access_token=b98da03282359144452fe91fd3032da1c0a5f65f](https://api.charged.fm/affiliate/checkout?access_token=b98da03282359144452fe91fd3032da1c0a5f65f)
 
 ```
-eid: 2556535
+eid: 2839016
 tid: ex12132
 qty: 1
-customer: {"first_name":"first","last_name":"last","email":"[test@gmail.com](mailto:test@gmail.com)","phone_number":"917-000-0000"}
+customer: {"first_name":"Andy","last_name":"Affiliato","email":"andy@gmail.com","phone_number":"718-212-9170","address":{"first_name":"Andrew","last_name":"Affiliato","address_line1":"10 John St","address_line2":"Apt 1A","city": "New York","state": "NY","zipcode": "10001","country": "US"}}
 ````
 
 **Example Response:**
@@ -186,8 +186,8 @@ customer: {"first_name":"first","last_name":"last","email":"[test@gmail.com](mai
     "code": 200,
     "message": "Success",
     "order": {
-        "orderId": "157085",
-        "orderNumber": "11412157085"
+        "orderId": "111222",
+        "orderNumber": "11412111222"
     }
 }
 ````
